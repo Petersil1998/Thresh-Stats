@@ -1,5 +1,6 @@
 <?php
 
+namespace Thresh_Stats\Ranked;
 
 class SoloQueueStats
 {
