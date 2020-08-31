@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6613bab1c6ccbe90c4f5306f2e5b9f82",
+    "content-hash": "ea3f843f2284804c4584713b96a37f42",
     "packages": [
         {
             "name": "petersil98/thresh",
-            "version": "1.2.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Petersil1998/Thresh.git",
-                "reference": "91ca347916a6c3c772619d3f480dbbd6a0b31760"
+                "reference": "22a8e91eceb6792c038e1411594e024ba375920d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Petersil1998/Thresh/zipball/91ca347916a6c3c772619d3f480dbbd6a0b31760",
-                "reference": "91ca347916a6c3c772619d3f480dbbd6a0b31760",
+                "url": "https://api.github.com/repos/Petersil1998/Thresh/zipball/22a8e91eceb6792c038e1411594e024ba375920d",
+                "reference": "22a8e91eceb6792c038e1411594e024ba375920d",
                 "shasum": ""
             },
             "require": {
@@ -39,13 +39,15 @@
                 }
             ],
             "description": "This is a library, that takes over the communication with the riot games API and provides the filled Objects",
-            "time": "2020-08-31T14:08:51+00:00"
+            "time": "2020-08-31T18:32:57+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "petersil98/thresh": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

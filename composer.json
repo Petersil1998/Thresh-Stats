@@ -15,6 +15,6 @@
     "require": {
         "ext-json": "*",
         "ext-curl": "*",
-        "petersil98/thresh": "1.*"
+        "petersil98/thresh": "dev-master"
     }
 }
