@@ -1,0 +1,20 @@
+{
+    "name": "petersil98/thresh-stats",
+    "description": "This is a extension for the petersil98/thresh library. This library provides useful data and stats",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Peter Silbernagl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Thresh_Stats\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-curl": "*",
+        "petersil98/thresh": "1.*"
+    }
+}

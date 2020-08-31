@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6613bab1c6ccbe90c4f5306f2e5b9f82",
+    "packages": [
+        {
+            "name": "petersil98/thresh",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Petersil1998/Thresh.git",
+                "reference": "91ca347916a6c3c772619d3f480dbbd6a0b31760"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Petersil1998/Thresh/zipball/91ca347916a6c3c772619d3f480dbbd6a0b31760",
+                "reference": "91ca347916a6c3c772619d3f480dbbd6a0b31760",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-gd": "*",
+                "ext-json": "*",
+                "ext-openssl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Thresh\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Peter Silbernagl"
+                }
+            ],
+            "description": "This is a library, that takes over the communication with the riot games API and provides the filled Objects",
+            "time": "2020-08-31T14:08:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "platform-dev": []
+}
